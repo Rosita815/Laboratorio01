@@ -7,6 +7,8 @@
     width: 100%;
     float: left;
     height: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
 }
 
 .footer{
@@ -14,25 +16,47 @@
     width: 100%;
     float: left;
     height: 40px;
+    margin-top: 10px;
 }
 .menu{
+    margin-top: 75px;
     background-color: magenta;
+    text-align: center;
     width: 25%;
     float: left;
+    padding-bottom: 50px;
 }
+
+.menu ul{
+    margin-top: 60px;
+}
+
 .dashboard{
     background-color: gray;
     width: 50%;
     float: left;
 }
+
+.dashboard img{
+    width: 300px;
+    margin-top: 20px;
+}
 .rss{
     background-color: darkblue;
     width: 25%;
     float: left;
+    margin-top: 50px;
 }
 .main{
-    background-color: firebrick;
+    background-color: rgb(34, 142, 178);
     width: 100%;
     float: left;
-    height: 300px;
+    height: 100%;
+}
+
+/*Header logo*/
+.logo{
+    float: left;   
+    margin-left: 50px; 
+    margin-top: 20px;
 }
