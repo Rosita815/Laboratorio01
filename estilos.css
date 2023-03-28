@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
     text-align: center;
+    
 }
 .header{
-    background-color: yellowgreen;
+    background-color: rgb(50, 128, 205);
     width: 100%;
     float: left;
     height: 60px;
@@ -20,7 +21,7 @@
 }
 .menu{
     margin-top: 75px;
-    background-color: magenta;
+    background-color: rgba(0, 0, 139, 0.23);
     text-align: center;
     width: 25%;
     float: left;
@@ -32,7 +33,7 @@
 }
 
 .dashboard{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.335);
     width: 50%;
     float: left;
 }
@@ -42,13 +43,12 @@
     margin-top: 20px;
 }
 .rss{
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0.23);
     width: 25%;
     float: left;
-    margin-top: 50px;
 }
 .main{
-    background-color: rgb(34, 142, 178);
+    background-color: rgba(34, 142, 178, 0.198);
     width: 100%;
     float: left;
     height: 100%;
