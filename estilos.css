@@ -13,42 +13,72 @@
 }
 
 .footer{
-    background-color: aqua;
+    background-color:  rgb(50, 128, 205);;
     width: 100%;
     float: left;
     height: 40px;
     margin-top: 10px;
 }
 .menu{
-    margin-top: 75px;
+ 
     background-color: rgba(0, 0, 139, 0.23);
     text-align: center;
-    width: 25%;
+    width: 100%;
     float: left;
-    padding-bottom: 50px;
 }
 
 .menu ul{
-    margin-top: 60px;
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #0528a6;
+    font-weight: 600;
+    transition: .4s;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
 }
 
 .dashboard{
+    background: url(./imagen/fondoMain.png);
+
     background-color: rgba(128, 128, 128, 0.335);
-    width: 50%;
+    width: 100%;
     float: left;
+    display: inline;
 }
 
 .dashboard img{
-    width: 300px;
+    width: 400px;
     margin-top: 20px;
 }
+
+.dashboard p{
+    color: #ffffff;
+    font-size: 16px;
+}
+
 .rss{
     background-color: rgba(0, 0, 139, 0.23);
-    width: 25%;
+    width: 100%;
     float: left;
 }
+
+.rss p{
+    color: blue;
+}
 .main{
-    background-color: rgba(34, 142, 178, 0.198);
+    /*background-color: rgba(34, 142, 178, 0.413);*/
     width: 100%;
     float: left;
     height: 100%;
