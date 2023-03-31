@@ -90,3 +90,133 @@ ul li a:hover{
     margin-left: 50px; 
     margin-top: 20px;
 }
+/*estilos service*/
+
+.headerserivice
+{
+    width: 100%;
+    float: left;
+    left: 0;
+    height: 60px;
+    padding-bottom: 100px;
+    top: 0;
+}
+
+.logoservice{
+    float: left;   
+    left: 0;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+.h1services{
+        color: whitesmoke;    
+}
+
+.aservices{
+    color: fuchsia;
+    background-color: white;
+}
+.mainservice{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.serviceproductos{
+    float: left;
+    background-color: gray;
+    font-family: Arial, sans-serif; 
+    width: 50%;
+}
+
+.h2servicesproductos{
+    font-family: Arial, sans-serif; 
+    /* max-width: 481px;
+    font-size: 2rem; */
+    color: #ffffff;
+}
+
+.img1desktop{
+    float: left;
+    width: 30%;
+}
+
+.h1div{
+    float: left;
+    color: white;
+    width: 481px;
+}
+
+.olservice{
+    float: left;
+    width: 100%;
+}
+ 
+.experiencia{
+    float: left;
+    width: 50%;
+    background-color: red;
+}
+.parrafolorem{
+    float: left;
+    color: white;
+    text-align: left;
+    font-size: xx-large;
+}
+ 
+.p{
+    text-align: left;
+    font-size: xx-large;
+}
+.backgroundservice
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.footerservices{
+     
+    float: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white ;
+}
+
+.imgservice{
+    width: 100%;
+    height: auto;
+}
+
+.menuservices{
+    float: left;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    background-color: coral;
+}
+
+.menuservices ul{
+    display: flex;
+}
+
+.menuservices ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #0528a6;
+    font-weight: 600;
+    transition: .4s;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
