@@ -41,6 +41,7 @@
 .menu ul li{
     list-style: none;
     margin: 0px 10px;
+    
 }
 
 ul li a{
@@ -66,7 +67,7 @@ ul li a:hover{
 }
 
 .dashboard img{
-    width: 400px;
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -284,7 +285,7 @@ form { max-width:420px; margin:50px auto; }
 
   .div1 img{
     margin-top: 2%;
-    width: 160px;
+    width: 100%;
     border-style: solid;
     border-color: cornflowerblue;
   }
@@ -298,7 +299,7 @@ form { max-width:420px; margin:50px auto; }
 
   .div2 img{
     margin-top: 2%;
-    width: 160px;
+    width: 100%;
     border-style: solid;
     border-color: cornflowerblue;
   }
@@ -312,7 +313,7 @@ form { max-width:420px; margin:50px auto; }
 
   .div3 img{
     margin-top: 2%;
-    width: 160px;
+    width: 100%;
     border-style: solid;
     border-color: cornflowerblue;
   }
@@ -329,7 +330,7 @@ form { max-width:420px; margin:50px auto; }
 
   .div4 img{
     margin-top: 2%;
-    width: 160px;
+    width: 100%;
     border-style: solid;
     border-color: cornflowerblue;
   }
