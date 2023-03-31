@@ -12,6 +12,12 @@
     padding-bottom: 100px;
 }
 
+.header h1{
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    margin-right: 10%;
+}
+
 .footer{
     background-color:  rgb(50, 128, 205);;
     width: 100%;
@@ -25,6 +31,7 @@
     text-align: center;
     width: 100%;
     float: left;
+    margin-bottom: 1%;
 }
 
 .menu ul{
@@ -85,9 +92,10 @@ ul li a:hover{
 }
 
 /*Header logo*/
+
 .logo{
     float: left;   
-    margin-left: 50px; 
+    margin-left: 10%; 
     margin-top: 20px;
 }
 /*estilos service*/
