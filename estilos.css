@@ -312,3 +312,66 @@ form { max-width:420px; margin:50px auto; }
   .imgcontact {
     width: 320px;
   }
+
+  /*imagenes*/
+
+  .div1 {
+    
+    float: left;
+    width: 50%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: rgba(0, 255, 255, 0.374);
+  }
+
+  .div1 img{
+    margin-top: 2%;
+    width: 160px;
+    border-style: solid;
+    border-color: cornflowerblue;
+  }
+
+  .div2 {
+    float: left;
+    width: 50%;
+    border-style: solid;
+    border-color: cornflowerblue;
+  }
+
+  .div2 img{
+    margin-top: 2%;
+    width: 160px;
+    border-style: solid;
+    border-color: cornflowerblue;
+  }
+
+  .div3 {
+    float: left;
+    width: 50%;
+    border-style: solid;
+    border-color: cornflowerblue;
+  }
+
+  .div3 img{
+    margin-top: 2%;
+    width: 160px;
+    border-style: solid;
+    border-color: cornflowerblue;
+  }
+
+  .div4 {
+    
+    float: left;
+    width: 50%;
+    height: auto;
+    border-style: solid;
+    border-color: cornflowerblue;
+    background-color: rgba(0, 255, 255, 0.374);
+  }
+
+  .div4 img{
+    margin-top: 2%;
+    width: 160px;
+    border-style: solid;
+    border-color: cornflowerblue;
+  }
