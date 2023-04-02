@@ -108,7 +108,7 @@ ul li a:hover{
 }
 /*estilos service*/
 
-<<<<<<< HEAD
+
 /* prueba de menu responsive  */
 .menunav {
     font-size: x-large;
@@ -194,75 +194,6 @@ ul li a:hover{
             text-align: center; 
             color: white;
 }
-=======
-
-
-@media only screen and (max-width: 600px) {
-    body {
-
-    }
-}
-
-.mainservice{   
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.logoservice{
-    float: left;   
-    left: 0;
-    margin-left: 20px; 
-    margin-top: 20px;
-}
-
-.headerserivice{
-    padding: 15px;
-}
-
-
-
-.gridcontainer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: transparent;
-    padding: 10px;
-   }
-   .griditem {
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-   }
-   
-
-.backgroundservice
-{
-    background-color: #666;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position:center;
-}
-
-
-.footerservices{ 
-   padding: 15px;
-   color: red;
-   position: fixed;
-   bottom: 0;
-   float: center;
-}
-
-.imgservice{
-    
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}
-
-
->>>>>>> 89ab16543f59a3e54eb0f3f1d1145e973308622e
 
 
 /* estilos de contact */
