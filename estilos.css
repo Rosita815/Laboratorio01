@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     text-align: center;
-    
+    margin: 0;
+    padding: 0;
 }
 .header{
     background-color: rgb(50, 128, 205);
@@ -20,10 +21,17 @@
 
 .footer{
     background-color:  rgb(50, 128, 205);;
-    width: 100%;
+    /* width: 100%;
     float: left;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 10px; */
+    position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center; 
+
+    
 }
 .menu{
  
@@ -100,134 +108,92 @@ ul li a:hover{
 }
 /*estilos service*/
 
-.headerserivice
-{
-    width: 100%;
-    float: left;
-    left: 0;
-    height: 60px;
-    padding-bottom: 100px;
-    top: 0;
-}
-
-.logoservice{
-    float: left;   
-    left: 0;
-    margin-left: 20px; 
-    margin-top: 20px;
-}
-
-.h1services{
-        color: whitesmoke;    
-}
-
-.aservices{
-    color: fuchsia;
-    background-color: white;
-}
-.mainservice{
-    float: left;
-    width: 100%;
-    height: 100%;
-}
-
-.serviceproductos{
-    float: left;
-    background-color: gray;
-    font-family: Arial, sans-serif; 
-    width: 50%;
-}
-
-.h2servicesproductos{
-    font-family: Arial, sans-serif; 
-    /* max-width: 481px;
-    font-size: 2rem; */
-    color: #ffffff;
-}
-
-.img1desktop{
-    float: left;
-    width: 30%;
-}
-
-.h1div{
-    float: left;
+/* prueba de menu responsive  */
+.menunav {
+    font-size: x-large;
+  }
+  
+  /* estilo par ael menu responsiv*/
+  .menunav a {
+    background-color: black;
+    float: center;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: line;
+    font-size: 20PX;
+  }
+  
+  /* cambiar el color al pasar el mouse sobre las lineas */
+  .menunav a:hover {
+    background-color: blue;
     color: white;
-    width: 481px;
-}
-
-.olservice{
-    float: left;
+  }
+  
+  /* fin de prueba */
+.imagenes{
     width: 100%;
-}
- 
-.experiencia{
-    float: left;
-    width: 50%;
-    background-color: red;
-}
-.parrafolorem{
-    float: left;
-    color: white;
-    text-align: left;
-    font-size: xx-large;
-}
- 
-.p{
-    text-align: left;
-    font-size: xx-large;
-}
-.backgroundservice
-{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+  max-width: 400px;
+  height: auto;
 }
 
-.footerservices{
-     
-    float: left;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    color: white ;
-}
-
-.imgservice{
+.main{
+    background-color: transparent ;
     width: 100%;
-    height: auto;
-}
-
-.menuservices{
     float: left;
-    width: 100%;
+    height: 200px;
+}
+   
+.gridcontainer1{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: transparent;
+    padding: 10px;
     color: whitesmoke;
+}
+
+.gridcontainer2{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+.gridcontainer3{
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    background-color: transparent;
+    padding: 10px;
+}
+.griditem {
+     background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
-    background-color: coral;
+}
+           
+.header
+{
+    background-color: transparent;
+    width: 100%;
+    float: left;
+    height: 60px;
+    text-align: center;
+    color: red;
 }
 
-.menuservices ul{
-    display: flex;
+.footerservice{
+    background-image: transparent;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center; 
+            color: white;
 }
 
-.menuservices ul li{
-    list-style: none;
-    margin: 0px 10px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #0528a6;
-    font-weight: 600;
-    transition: .4s;
-    font-size: 20px;
-}
-
-ul li a:hover{
-    color: orangered;
-    border-bottom: 1px solid orangered;
-}
 
 /* estilos de contact */
 
