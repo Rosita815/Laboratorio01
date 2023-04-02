@@ -1,8 +1,9 @@
 *{
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+    
 }
 .header{
     background-color: rgb(50, 128, 205);
@@ -20,16 +21,16 @@
 }
 
 .footer{
-    background-color:  rgb(50, 128, 205);;
+  background-color:  rgb(50, 128, 205);;
     /* width: 100%;
     float: left;
     height: 40px;
     margin-top: 10px; */
-    position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            text-align: center; 
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ text-align: center; 
    
 }
 .menu{
@@ -111,34 +112,37 @@ ul li a:hover{
 
 /* prueba de menu responsive  */
 .menunav {
-    font-size: x-large;
+    font-size: large;
+    
   }
   
   /* estilo par ael menu responsiv*/
-  .menunav a {
-    background-color: black;
-    float: center;
-    color: #f2f2f2;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: line;
-    font-size: 20PX;
-  }
+.menunav a{
+  float: center;
+  color: greenyellow;
+  text-align: center;
+  padding: 0.5px 25px;
+  text-decoration: line;
+  font-size: 30px;
+  background-color: black;
+
+}
   
   /* cambiar el color al pasar el mouse sobre las lineas */
   .menunav a:hover {
-    background-color: blue;
+    background-color: black;
     color: white;
   }
   
   /* fin de prueba */
+
 .imagenes{
     width: 100%;
   max-width: 400px;
   height: auto;
 }
 
-.main{
+.mainservices{
     background-color: transparent ;
     width: 100%;
     float: left;
