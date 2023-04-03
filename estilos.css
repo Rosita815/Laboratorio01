@@ -21,20 +21,14 @@
 }
 
 .footer{
+  width: 100%;
+  float: left;
   background-color:  rgb(50, 128, 205);;
-    /* width: 100%;
-    float: left;
-    height: 40px;
-    margin-top: 10px; */
- position: fixed;
- bottom: 0;
- left: 0;
- width: 100%;
- text-align: center; 
+  text-align: center;
+ 
    
 }
-.menu{
- 
+.menu{ 
     background-color: rgba(0, 0, 139, 0.23);
     text-align: center;
     width: 100%;
@@ -97,7 +91,7 @@ ul li a:hover{
     /*background-color: rgba(34, 142, 178, 0.413);*/
     width: 100%;
     float: left;
-    height: 100%;
+    
 }
 
 /*Header logo*/
@@ -298,3 +292,55 @@ label {
   color: black;
   background-color: rgba(255, 255, 6, 0.9);
 }
+
+/*Style para Images*/
+
+.divImagens{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+ 
+}
+
+.divImagen1{
+  width: 100%;
+  height: auto;
+}
+
+.divImagen1 img{
+  width: 50%;
+  padding-left: 1%;
+}
+
+.divImagen2{
+  width: 100%;
+  height: auto; 
+}
+
+.divImagen2 img{
+  width: 50%;
+  padding-left: 1%;
+}
+
+.divImagen3{
+  width: 100%;
+  height: auto; 
+}
+
+.divImagen3 img{
+  width: 50%;
+  padding-left: 1%;
+}
+
+.divImagen4{
+  width: 100%;
+  height: auto;  
+
+}
+
+.divImagen4 img{
+  width: 50%;
+  padding-left: 1%;
+}
+
