@@ -6,7 +6,7 @@
     
 }
 .header{
-    background-color: rgb(50, 128, 205);
+    background-color: rgba(226, 228, 230, 0.353);
     width: 100%;
     float: left;
     height: 60px;
@@ -15,21 +15,25 @@
 }
 
 .header h1{
-    text-shadow: 2px 2px 5px red;
-    text-align: center;
-    margin-right: 10%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;    
+    margin: 2% 0% 6% 0%;
 }
 
 .footer{
   width: 100%;
   float: left;
-  background-color:  rgb(50, 128, 205);;
-  text-align: center;
- 
-   
+  background-color: rgba(17, 17, 206, 0.761);
+  text-align: center;   
 }
+
+.footer p{
+  color: #ffffff;
+}
+
 .menu{ 
-    background-color: rgba(0, 0, 139, 0.23);
+    background-color: rgba(17, 17, 206, 0.761);
     text-align: center;
     width: 100%;
     float: left;
@@ -40,36 +44,36 @@
     display: flex;
 }
 
-.menu ul li{
-    list-style: none;
-    margin: 0px 10px;
-    
-}
-
-ul li a{
+.menu a{
     text-decoration: none;
-    color: #0528a6;
+    color:#ffffff;
     font-weight: 600;
     transition: .4s;
     font-size: 20px;
+    float: left;
+    padding: 14px 16px;
+
 }
 
-ul li a:hover{
+.menu a:hover{
     color: orangered;
     border-bottom: 1px solid orangered;
 }
 
 .dashboard{
-    background: url(./imagen/fondoMain.png);
-
-    background-color: rgba(128, 128, 128, 0.335);
+    
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+    /*background-color: rgba(128, 128, 128, 0.335);
     width: 100%;
     float: left;
-    display: inline;
+    display: inline;*/
 }
 
 .dashboard img{
-    width: 100%;
+    width: 50%;
     margin-top: 20px;
 }
 
@@ -79,13 +83,14 @@ ul li a:hover{
 }
 
 .rss{
-    background-color: rgba(0, 0, 139, 0.23);
+    background-color: rgba(228, 129, 54, 0.875);
     width: 100%;
     float: left;
 }
 
 .rss p{
-    color: blue;
+    color: rgb(241, 241, 255);
+    font-size: 16px;
 }
 .main{
     /*background-color: rgba(34, 142, 178, 0.413);*/
@@ -208,7 +213,8 @@ ul li a:hover{
   background-image: url(imagen/computerstore.jpg);
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: no-repeat; background-size: cover;
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 
@@ -306,41 +312,118 @@ label {
 .divImagen1{
   width: 100%;
   height: auto;
+  background-color: rgb(50, 128, 205);
 }
 
 .divImagen1 img{
   width: 50%;
   padding-left: 1%;
+  margin-top: 5%;
+  box-shadow: 3px 5px 3px 0px rgba(18, 9, 19, 0.561);
+}
+
+
+.divImagen1 p{
+  color: #ffffff;
+  border-style: outset;
+  border-color: rgb(162, 20, 155);
+  margin: 2% 10% 2% 10%;
+  font: 1em sans-serif;
+  transition: 4.s;
+}
+
+.divImagen1 p:hover{
+ color: #ddef4f;
 }
 
 .divImagen2{
   width: 100%;
   height: auto; 
+  transition: 4.s;
 }
+
+.divImagen2:hover{
+  background-color: #6e9e99;
+ }
 
 .divImagen2 img{
   width: 50%;
   padding-left: 1%;
+  margin-top: 5%;
+ 
 }
+
+.divImagen2 p{
+  color: #ffffff;
+  border-style: outset;
+  border-color: rgb(162, 20, 155);
+  margin: 2% 10% 2% 10%;
+  font: 1em sans-serif;
+}
+
+.divImagen2 p:hover{
+  color: #ddef4f;
+ }
 
 .divImagen3{
   width: 100%;
-  height: auto; 
+  height: auto;
+  transition: 4.s; 
 }
+
+.divImagen3:hover{
+  background-color: #6e9e99;
+ }
 
 .divImagen3 img{
   width: 50%;
   padding-left: 1%;
+  margin-top: 5%;
 }
+
+.divImagen3 p{
+  color: #ffffff;
+  border-style: outset;
+  border-color: rgb(162, 20, 155);
+  margin: 2% 10% 2% 10%;
+  font: 1em sans-serif;
+}
+
+.divImagen3 p:hover{
+  color: #ddef4f;
+ }
 
 .divImagen4{
   width: 100%;
   height: auto;  
+  background-color:  rgb(50, 128, 205);
 
 }
 
 .divImagen4 img{
   width: 50%;
   padding-left: 1%;
+  margin-top: 5%;
+  box-shadow: 3px 5px 3px 0px rgba(18, 9, 19, 0.561);
+  
 }
 
+.divImagen4 p{
+  color: #ffffff;
+  border-style: outset;
+  border-color: rgb(162, 20, 155);
+  margin: 2% 10% 2% 10%;
+  font: 1em sans-serif;
+}
+
+.divImagen4 p:hover{
+  color: #ddef4f;
+ }
+
+.cuerpo {
+  background-image: url(imagen/fondo1Imagen.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
